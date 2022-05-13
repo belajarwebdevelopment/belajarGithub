@@ -1,0 +1,148 @@
+body {
+    background-color:  #131417;
+    font-family: 'Montserrat';
+    color : #FFFFFF;
+}
+
+button {
+    font-size: 24px;
+    color : #FFFFFF;
+    font-weight:400;
+    font-family: 'Montserrat';
+    margin : 1px;
+    border: 1px solid #FFFFFF;
+    padding : 3px 7px 3px 7px;
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
+
+#teraButton {
+    background-color: #008CBA;
+}
+
+#tuButton {
+    background-color: #4CAF50
+
+}
+
+#tulkButton {
+    background-color: #008CBA;
+}
+
+.nextButton {
+    background-color: #308D46;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    color : #FFFFFF;
+    width: 100%;
+    margin-top : 16px;
+    padding : 10px 10px;
+    border-radius: 6px;;
+}
+
+.headerDivLeft {
+    display: inline-block;
+    width : 50%;
+}
+
+.headerDivRight {
+    display: inline-block;
+    text-align: right;
+    width : 49%;
+
+}
+
+label {
+    font-family: 'Montserrat';
+    font-size: 24px;
+}
+
+.kontainer {
+    width: 100%;
+    height : auto;
+    padding : 2px 2px 2px 2px;
+    border-top: 10px solid #308D46;
+    /*position: fixed;*/
+}
+
+.divMainForm {
+    width : 35%;
+    height : 100%;
+    display : inline-block;
+    border-right: 2px solid #308D46;
+    padding: 10px 10px;
+    border-right : 2px solid #308D46;
+    vertical-align: top;
+    height : 640px;
+}
+
+.divChildForm {
+    width : 60%;
+    height : 100%;
+    display: inline-block;
+    /*border : 1px solid #308D46;*/
+    vertical-align: top;
+    padding: 10px 10px;
+
+}
+
+input {
+    width : 100%;
+    margin : 8px 0;
+    margin-top : 10px ;
+    padding : 15px 23px;
+    box-sizing: border-box;
+    border : 2px solid #90EE90;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    color : darkgreen;
+    font-weight: 800;
+}
+
+.footerPage {
+    height : 100px;
+    background-color: #2A2A2C;;
+    position : fixed;
+    display: block;
+    bottom: 0;
+    left  :0;
+    width : 100%;
+    /*font-family: Roboto, sans-serif;*/
+    font-family: 'Montserrat';
+    font-size: 22px;
+    color : #FFFFFF;
+    padding : 5px 5px 5px 5px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width : 100%;
+    text-align: left;
+    font-family: 'Montserrat';
+}
+
+
+table th {
+    background-color: #308D46;
+    color : #FFFFFF;
+    border-bottom: 1px solid #ededed;
+    border-top: 1px solid #ededed;
+    border-left: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    padding: 4px 4px 4px 4px ;
+}
+
+table td {
+    background-color: #FFFFFF;
+    color : #308D46;
+    border-bottom: 1px solid #ededed;
+    border-top: 1px solid #ededed;
+    border-left: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    padding: 4px 4px 4px 4px ;
+}
